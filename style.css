@@ -1,0 +1,90 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ddd;
+}
+
+.weather-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: calc(250px * 3);
+  margin: 0 auto;
+}
+
+.weather-item {
+  width: 250px;
+  padding: 25px;
+  border: 2px solid #ddd;
+  background: #fff;
+}
+
+.icon-wrap {
+  font-size: 40px;
+  color: #7777ef;
+  text-align: center;
+  margin: 35px 0;
+}
+
+.wi-day-sunny {
+  color: #e4e433;
+}
+
+.weekday {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.weather-status {
+  font-size: 20px;
+  line-height: 2;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.other {
+  font-size: 16px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.atmosphere {
+  font-size: 16px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.widget-title {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.today {
+  font-size: 12px;
+  margin-left: 5px;
+}
